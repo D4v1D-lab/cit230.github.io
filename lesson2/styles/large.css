@@ -10,13 +10,11 @@
     body {
 font-size: 12pt;
 }
-img{
-    width: 500px;
-}
+
 p{
-    color: black;
+    color: gray;
 }
 } 
 html {
-    background-color: aquamarine;
+    background-color: orange;
 }

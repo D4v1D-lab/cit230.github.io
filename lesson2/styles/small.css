@@ -7,6 +7,8 @@
 
 section {
     text-align: center;
+    max-width: 300px;
+
 }
 
 h1 {
@@ -15,4 +17,7 @@ h1 {
 
 h2 {
     font-family: 'Raleway', sans-serif;
+}
+img {
+    width: 200px;
 }
