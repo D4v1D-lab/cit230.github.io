@@ -1,0 +1,27 @@
+@media only screen and (min-width: 64em) {
+    #grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    section {
+        text-align: center;
+    }
+    body {
+font-size: 12pt;
+}
+
+p{
+    color:white;
+}
+} 
+html {
+    background-color: green;
+}
+article {
+    border: 1px dotted green;
+}
+
+article {
+    display: block;
+}
