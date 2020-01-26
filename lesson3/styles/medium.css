@@ -23,3 +23,7 @@ article {
 article {
     display: block;
 }
+nav{
+
+    justify-content: center;
+}

@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro&display=swap');
 
-#grid {
-    display: grid;
-    grid-template-columns: 1fr;
-}
 
-section {
-    text-align: center;
-    max-width: 300px;
 
+nav{
+
+    justify-content: center;
 }
 
 h1 {
@@ -17,14 +13,6 @@ h1 {
 
 h2 {
     font-family: 'Raleway', sans-serif;
-}
-
-article {
-    border: 1px dotted green;
-}
-
-article {
-    display: block;
 }
 
 ul{ 
@@ -43,23 +31,86 @@ ul li a {
     
 }
 
-nav > ul {
+nav {
+    background-color: black;
+    color: white;
+    line-height: 1em;
+    font-size: 1.1em;
+    padding: 1em;
+  
+    border-radius: 10px 10px 10px 10px;
+    border: solid #ccc;
+    justify-content: center;
+  }
+  nav > ul {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(4em, 1fr));
     margin: 0;
-    font-style: 'Source Sans Pro', sans-serif;
-    font-family: 'Raleway', sans-serif;
-}
-
-nav a:hover {
+  }
+  nav a {
+    padding: 1em; 
+    text-decoration: none;
+  }
+  nav a:link,
+  nav a:visited {
     color: white;
-    background-color:black;
-}
-
+  }
+  nav a:hover {
+    color: white;
+    background-color: green;
+  }
 html{
     background-color: green;
     color: white;
    
 }
+main {
+    
+    margin: 0 auto;
+    background: black;
+    padding: 0em;
+  
+    border-radius: 10px 10px 10px 10px;
+    
 
+    justify-content: center;
+}
+
+
+.title {
+    margin: 3em;
+    background: black;
+    padding: 4em;
+  
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+
+}
+
+img{
+    height: 4em;
+    width: 7em;
+    text-align: left;
+}
+
+.purpose{
+    border-color: green;
+    
+}
+footer {
+    background-color: black;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    align-content: center;
+    border: solid #ccc;
+    justify-content: center;
+    color: white;
+    
+}
+.img2{
+
+    text-align: center;
+    
+    
+}
