@@ -45,6 +45,9 @@ footer {
     align-content: center;
     border: solid #ccc;
     justify-content: center;
+    max-width: 50em;
+    margin: auto;
+
 
 }
 .img2{
