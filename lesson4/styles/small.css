@@ -25,7 +25,7 @@ footer {
 
 }
 header{
-  background: linear-gradient(#3EB489,green) ;
+  background: linear-gradient(green, #3EB489) ;
   border-radius: 2x 2px 2px 2px;
   color: black;
   max-width: 100%;
