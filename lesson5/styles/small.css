@@ -105,7 +105,23 @@ text-align: center;
 }
 
 #hero-image {
-    width: 55em;
-    height: 30em;
+    
     border-radius: 5px 5px 5px 5px;
+    display:block;
+    margin:auto;
+    width: 100%;
+    height: auto;
+}
+
+#weather-summary{
+background-color: rgba(240, 240, 240, 0.8);
+margin: 1em 3em;
+padding: 1em;
+text-align: center;
+color: white;
+border-radius: 5px 5px 5px 5px;
+position: absolute;
+top: 300px;
+left: 10px;
+opacity: 1;
 }
