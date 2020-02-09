@@ -64,6 +64,10 @@
     thead {
         border-bottom: solid 5px rgba(0, 0, 0, 0.2);
     }
+    #contact-info{
+        width: 80%;
+        margin: auto;
+    }
 
    
 
