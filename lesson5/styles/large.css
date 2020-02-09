@@ -1,4 +1,5 @@
 @media only screen and (min-width: 64em) {
+
     .navigation {
         display: flex;
         border: 3px solid rgba(0, 0, 0, 0.2);
@@ -63,5 +64,7 @@
     thead {
         border-bottom: solid 5px rgba(0, 0, 0, 0.2);
     }
+
+   
 
 }

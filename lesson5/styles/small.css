@@ -130,12 +130,12 @@ section {
 }
 
 #article-image {
-  border-radius: 5px 5px 5px 5px;
   display: block;
   margin: auto;
-  width: 50%;
+  width: 45%;
   height: auto;
   float: right;
+  padding: .5em;
 }
 
 #weather-summary {
@@ -170,3 +170,14 @@ footer{
     display: block;
     margin: auto;
   }
+
+  #table-cont{
+    background-color: rgba(0,0,0,0.2);
+    padding-bottom: 2em;
+  }
+
+  #paragraph-a{
+    background-color: rgba(0,0,0,0.2);
+    padding: 2em;
+  }
+ 
