@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston 5</title>
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body >
+    <aside class="pancakes" styles="display: none">
+        <p></p>
+    </aside>
+    <header>
+        <img src="images/Presto.png" id="logo">
+         <h1>Your weather site</h1><h3>"Always first in podcast"</h3>
+     </header>
+    <header></header>
+    <nav>
+
+        <ul class="navigation">  
+            <li>
+               <a class="ham" href="#">&#9776; Menu</a>
+            </li>
+           
+            <li>
+                <a href="#" >Home</a>
+            </li>
+            <li class="active">
+                <a  href="#">Preston</a>
+            </li>
+            <li>
+                <a href="#">Soda Springs</a>
+            </li>
+            <li>
+                <a href="#">Fish Haven</a>
+            </li>
+            <li>
+                <a href="#">Storm Center</a>
+            </li>
+            <li>
+                <a href="#">Gallery</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+       <article>
+
+      
+    <section class = "grid">
+        <section id = "herocontainer">
+           
+            <picture>
+            <source srcset="images/Small.jpg" media="(max-width: 32.5em)">
+                <source srcset="images/Medium.jpg" media="(max-width: 65em)">
+                <source srcset="images/Large.jpg" media="(min-width: 65.1em)">
+                <img src="images/hero_image_small.jpg" alt="hero-image"></picture>
+            <article id = "weather-summary">
+                
+                <h1>Weather Summary</h1>
+                <div>
+                    <span>Current temperature: </span>
+                    <span id ="current-temp"> </span>
+                </div>
+
+                <div>
+                    <span>Wind speed: </span>
+                    <span id ="wind-speed"> </span>
+                </div>
+
+                <div>
+                    <span> Feels like: </span>
+                    <span id="wind-chill"> </span>
+                </div>
+
+                <div>
+                    <span>Humidity: </span>
+                    <span id ="humidity"> </span>
+                </div>
+            </article>
+        </section >
+            <section id="table-cont" >
+                
+                <h1>Five-Day forecast</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="day1">Monday</th>
+                            <th id="day2">Tuesday</th>
+                            <th id="day3">Wednesday</th>
+                            <th id="day4">Thursday</th>
+                            <th id="day5">Friday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="temp1">50&deg;</td>
+                            <td id="temp2">45&deg;</td>
+                            <td id="temp3">40&deg;</td>
+                            <td id="temp4">42&deg;</td>
+                            <td id="temp5">35&deg;</td>
+
+                        </tr>
+                       
+                        </tr>
+                    </tbody>
+                </table></section></div>
+            <section id="rain-img">
+            <article id = "city-article">
+                <img src="images/rain.jpg" alt ="Preston" id = "article-image">
+            </article></section>
+            
+
+            <section id ="paragraph-a">
+                
+                <h1>Your weather site</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit conubia magnis pellentesque class 
+                    aliquam, nullam auctor nostra ullamcorper per risus id lectus congue rhoncus vestibulum eget mollis, vivamus duis nibh mauris odio maecenas dis porta facilisi vel mus. In iaculis malesuada lacus feugiat nam pulvinar nullam mattis diam aliquet, montes nisi est leo donec suscipit accumsan ad magna. Laoreet pulvinar tempor rhoncus senectus convallis himenaeos fringilla eu, quam diam augue integer sem porta felis, ultricies mollis a nam conubia vitae turpis.
+</p>
+                  <p>  Ridiculus senectus potenti morbi etiam non augue cras, ligula curae fusce nam primis 
+                    ullamcorper semper iaculis, massa nibh eget tortor litora nostra. Cum elementum pretium 
+                    taciti et tincidunt ante, bibendum ac sociosqu nibh est conubia, condimentum porta ad 
+                    quisque enim. Imperdiet neque bibendum pulvinar sapien turpis dignissim lectus odio 
+                    conubia, curabitur pharetra fermentum scelerisque tellus sodales vitae vestibulum 
+                    habitasse, himenaeos litora nec ad praesent fringilla sem in.</p>
+            
+            </section>
+                
+
+
+            </article>
+        </section>
+        <section id="contact-info" >
+            <address>
+
+                <p> Your weather site:<br>
+                 Greenbrier E, 2nd N 
+                Rexburg, ID 10539, #208.360.567<br>
+               </p>
+            </address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.586133153681!2d-111.7813852495916!3d43.822943349354446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540a55cec30835%3A0xf86a81435fa86df9!2sGreenbrier%20Apartments!5e0!3m2!1ses-419!2sus!4v1581219508849!5m2!1ses-419!2sus" 
+            width="30%" height="25%" frameborder="0" style="border:0;" allowfullscreen="" id="map"></iframe>
+        </section>
+
+        </main>
+        <footer>
+            
+      © 2020, Preston Company, <span id="currentDate"></span>
+      <br>
+            All trademarks and registered trademarks appearing on 
+            this site are the property of their respective owners.
+          </footer>
+        <script src="scripts/preston-6.js"></script>
+</body>
+</html>
