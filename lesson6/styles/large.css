@@ -49,6 +49,14 @@
         width: 30em;
         margin: auto;
     }
+    #hero-image {
+
+        border-radius: 5px 5px 5px 5px;
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: auto;
+      }
 
     #paragraph-a {
         margin: auto;
