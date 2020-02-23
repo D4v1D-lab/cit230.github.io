@@ -14,13 +14,16 @@ function doInputOutput() {
     var today_4 = weekDays[date.getDay()+4];
   
   
-    const aside = document.querySelector("aside"); 
+   
   
-    if (date === 5) {
-        aside.style.display ="block";
-    } else {
-        aside.style.display ="none";
-    }
+    let pday = new Date();
+        let aside = document.querySelector('aside');
+   if (pday.getDay() === 5) {
+      aside.style.display ="block";
+   }
+   else {
+     aside.style.display = "none";
+   }
   
   
   
