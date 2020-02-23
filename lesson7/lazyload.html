@@ -1,11 +1,36 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lazy Load</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/lazyload.css">
 </head>
 <body>
-    <h1>Progressive loading images</h1>
+    <head>
+        <h1>Lazy Load page</h1>
+        <picture>
+            <img src="images/300x400.png" data-src="//unsplash.it/300/400" alt='lazyload1'>
+        </picture>
+        <picture>
+            <img src="images/300x400.png" data-src="//unsplash.it/301/401" alt='lazyload2'>
+        </picture>
+        <picture>
+            <img src="images/300x400.png" data-src="//unsplash.it/302/402" alt='lazyload3'>
+        </picture>
+        <picture>
+            <img src="images/300x400.png" data-src="//unsplash.it/303/403" alt='lazyload4'>
+        </picture>
+        <picture>
+            <img src="images/300x400.png" data-src="//unsplash.it/304/404" alt='lazyload5'>
+        </picture>
+        <picture>
+            <img src="images/300x400.png" data-src="//unsplash.it/305/405" alt='lazyload6'>
+        </picture>
+    </head>
+    <script src="scripts/lazyload.js"></script>
 </body>
 </html>

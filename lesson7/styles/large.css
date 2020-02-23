@@ -26,57 +26,5 @@
         margin: auto;
     }
 
-    #article-image {
-        border-radius: 10px 10px 10px 10px;
-        display: block;
-        margin: auto;
-        width: 50%;
-        height: auto;
-        padding-top: 5em;
-        padding-bottom: 5em;
-    }
-
-    #weather-summary {
-        background-color: rgba(240, 240, 240, 0.8);
-        margin: 1em 1em;
-        padding: .5em;
-        text-align: center;
-        color: white;
-        border-radius: 5px 5px 5px 5px;
-        position: relative;
-        bottom: 20em;
-        width: 30em;
-        margin: auto;
-    }
-    #hero-image {
-
-        border-radius: 5px 5px 5px 5px;
-        display: block;
-        margin: auto;
-        width: 100%;
-        height: auto;
-      }
-
-    #paragraph-a {
-        margin: auto;
-        padding: 5em;
-        text-align: left;
-    }
-
-    table {
-        margin: auto;
-        border-collapse: collapse;
-    }
-
-    thead {
-        border-bottom: solid 5px rgba(0, 0, 0, 0.2);
-    }
-    #contact-info{
-        width: 80%;
-        margin: auto;
-    }
-    .pancakes p {
-        text-align: center;
-    }
  
 }
