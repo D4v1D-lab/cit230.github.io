@@ -95,13 +95,18 @@ function doInputOutput() {
   currentDateString += ' ' + currentDate.getFullYear();
   
   document.getElementById('currentDate').innerHTML = currentDateString; /*display date*/
+
+  function adaptiveMenu() {
+    var links = document.getElementById("navigation"); // menu display
+    if (links.className === "navigation") {
+        links.className += ".responsive";
+    } else {
+        links.className = "navigation";
+    }
+    
+}
   
-  document.querySelector('#current-temp').innerHTML = '50&deg;'; // 
-  document.querySelector('#wind-speed').innerHTML = '10mph';
-  document.querySelector('#humidity').innerHTML = '10&percnt;';
-  
-  
-  const hambutton = document.querySelector(".ham");// menu display
+  const hambutton = document.querySelector(".ham");
   hambutton.addEventListener("click", toggleMenu, false);
   
   function toggleMenu() {
