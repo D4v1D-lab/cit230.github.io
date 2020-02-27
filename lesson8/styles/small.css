@@ -1,0 +1,32 @@
+caption {
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+table, caption, tr, th, td {
+border: 1px solid rgb(211, 189, 189);
+border-collapse: collapse;
+padding: 5px;
+text-align: center;
+}
+html {
+
+    font-family: 'Ubuntu', 'sans-serif';
+}
+tr{
+    background-color: white ;
+}
+th, #november-sales-goal{
+    background-color: #628ca6;
+    color: white;
+}
+tr:nth-child(even){
+    background-color:#e7ffed;
+    color: black;
+}
+caption, tfoot td {
+    background-color: #7fb9c2 ;
+
+}
+tfoot td {
+    font-size: 9pt;
+}
