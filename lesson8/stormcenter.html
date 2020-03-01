@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston 5</title>
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+  
+    <header>
+        <img src="images/Presto.png" id="logo">
+         <h1>Your weather site</h1><h3>"Always first in podcast"</h3>
+     </header>
+    <header></header>
+    <nav>
+
+        <ul class="navigation">  
+            <li>
+               <a class="ham" href="#">&#9776; Menu</a>
+            </li>
+           
+            <li>
+                <a href="#" >Home</a>
+            </li>
+            <li class="active">
+                <a  href="#">Preston</a>
+            </li>
+            <li>
+                <a href="#">Soda Springs</a>
+            </li>
+            <li>
+                <a href="#">Fish Haven</a>
+            </li>
+            <li>
+                <a href="#">Storm Center</a>
+            </li>
+            <li>
+                <a href="#">Gallery</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <body>
+      <form action="thanks.html" method="GET">
+          <div>
+          <label for="fullName">Full Name: </label>
+          <input 
+                type="text" id="fullName" name="fullName"
+                required>
+                <div>
+            <label for="email">Email: </label >
+            <input 
+            type="text" id="email" name="email"
+            required placeholder="email@gmail.com">
+          </div>
+          <div>
+            <label for="phoneNumber">Phone Number: </label >
+            <input 
+            type="tel" id="phoneNumber" name="phoneNumber"
+            required >
+          </div>
+          <div>
+            <label for="zipCode">Zip Code: </label >
+            <input 
+            type="number" id="zipCode" name="zipCode"
+            required >
+          </div>
+          <div>
+            <label for="stormDate">Storm Date: </label >
+            <input 
+            type="date" id="stormDate" name="stormDate"
+             >
+          
+                 <label><span>Storm Severity: From 1 to 10: </span>
+              <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+              <span id="ratingvalue">5</span>
+        </label>
+        </div>
+            </div>
+            <div>
+                <label><span>Storm Region:</span></label>
+                  
+                <input list="browsers"  name="stormregion">
+                  <datalist id="region">
+                  <option value="Preston">
+                  <option value="Preston">
+                  <option value="Soda-Springs">
+                  <option value="Fish">
+                  </datalist>
+                </div>
+          <div> <span>Danger:</span>
+            <label><input type="radio" name="danger" value="yes">yes</label>
+            <label><input type="radio" name="danger" value="no">no</label>
+            <label><input type="radio" name="danger" value="maybe">maybe</label>
+        </div>
+        <div>
+            <input type="submit" value="submit">
+            <input type="button" value="reset">
+        </div>
+
+       </main>
+        <footer>
+            
+      © 2020, Preston Company, <span id="currentDate"></span>
+      <br>
+            All trademarks and registered trademarks appearing on 
+            this site are the property of their respective owners.
+          </footer>
+        <script src="scripts/storm.js"></script>
+</body>
+</html>

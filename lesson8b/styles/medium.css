@@ -1,0 +1,40 @@
+@media only screen and (min-width: 32.5em){
+    .navigation{
+        flex-direction: row;
+    }
+
+    .ham{
+        display: none;
+    }
+
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* needed because of state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		text-align: center;
+	}
+	
+	.navigation li:first-child {
+		display: none;
+	}
+
+	#five_day_forcast{
+		display: block;
+		align-items: center;
+	}
+	
+    #weather_summary{
+		bottom: 30em;
+	}
+
+	.grid{
+		grid-template-columns: 1fr 1fr;
+	}
+
+	
+	
+}

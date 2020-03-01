@@ -1,6 +1,5 @@
-
 /* HTML selectors */
-
+@import url('https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro&display=swap');
 
 body {
   margin: 0;
@@ -139,6 +138,18 @@ section {
   padding: .5em;
 }
 
+#weather-summary {
+  background-color: rgba(240, 240, 240, 0.8);
+  margin: 1em 1em;
+  text-align: center;
+  border-radius: 5px 5px 5px 5px;
+  position: relative;
+  bottom: 21em;
+  opacity: 1;
+  color: gray !important;
+  width: 15em;
+  margin: auto;
+}
 #herocontainer {
   overflow: hidden;
   height: 300px;
@@ -169,3 +180,26 @@ footer{
     background-color: rgba(0,0,0,0.2);
     padding: 2em;
   }
+   div{
+       text-align: left;
+   }    
+
+   form{
+       margin-left: 30px;
+   }
+
+   label{
+       display: inline-block;
+       margin-bottom: 5px;
+       width: 130px;
+   }
+   input[type="text"]{
+       color: blue;
+
+   }
+   form {
+    border: 1px solid rgb(211, 189, 189);
+   }
+   
+ 
+ 
