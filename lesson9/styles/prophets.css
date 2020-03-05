@@ -21,6 +21,7 @@ img {
 section {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 10px;
 }
 
 h1, p{
