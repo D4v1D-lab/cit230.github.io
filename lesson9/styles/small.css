@@ -1,0 +1,174 @@
+/* ----------------body--------------- */
+body,
+html,
+header {
+    margin: 0;
+    padding: 0;
+    background-color: #3EB489;
+}
+
+body {
+    
+    min-width: 300px;
+    background-color: rgba(0,0,0,0.2);
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Noto Sans JP';
+}
+
+h2 {
+    text-align: center;
+}
+
+/* -------------------header--------------------- */
+.picture-one {
+    width: 20%;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato';
+    justify-content: center;
+
+}
+
+/* -----------------navigation------------- */
+ul {
+    list-style: none;
+    background-color: #3EB489;
+    margin: 0;
+    padding: 0;
+}
+
+a:link,
+a:visited {
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+a:hover,
+a:active {
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Lato';
+    align-items: center;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    display: block;
+}
+
+.responsive li {
+    display: none;
+}
+
+
+/* --------------------main------------------ */
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+    font-family: 'Lato';
+
+}
+
+
+/* --------------form------------------- */
+
+form {
+    margin: auto;
+    color: white;
+}
+
+form input{
+    color: white;
+}
+
+h2{
+    color: black;
+}
+
+/* .submit{
+    background-color:#31242a;
+} */
+
+
+
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid black;
+    background-color: #3EB489;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    max-width: 300px;
+}
+
+div {
+    margin: 20px;
+}
+
+form input {
+    border-radius: .75em;
+   
+    background-color: rgba(0,0,0,0.2);
+    padding: .75rem;
+    max-width: 300px;
+    display: block;
+    margin-left: 5em;
+ 
+}
+
+.text {
+    max-width: 300px;
+    text-align: center;
+}
+
+.radio input {
+    display: inline;
+}
+
+.inline {
+    display: inline;
+}
+/* ----------------footer------------- */
+footer {
+    background-color: #3EB489;
+    
+    font-family: 'Lato';
+    padding: 1em;
+    text-align: center;
+}
+#foot{
+    background-color:rgba(0,0,0,0.2); 
+}
+
+#cities{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
