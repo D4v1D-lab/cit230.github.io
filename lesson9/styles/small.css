@@ -126,7 +126,6 @@ img {
     height: 150px;
     border-radius: 5px;
 }
-
 p, h1, h3{
     text-align: center;
 }
@@ -140,8 +139,4 @@ article{
     border-radius: 5px;
     border: solid black;
 }
-article:hover {
-        
-    box-shadow: 0 0 20px #000000b6;
-     filter: saturate(120%) brightness(1.05);
-}
+
