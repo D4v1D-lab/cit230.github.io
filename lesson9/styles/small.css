@@ -133,5 +133,6 @@ article{
     margin: 15px;
     border-radius: 5px;
     border: solid black;
+    box-shadow: 0 0 10px 0 navy;
 }
 
