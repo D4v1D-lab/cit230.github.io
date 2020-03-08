@@ -31,10 +31,40 @@
 		bottom: 30em;
 	}
 
-	.grid{
+	#cities {
+		display: grid;
 		grid-template-columns: 1fr 1fr;
+		padding: 10px;
 	}
 
-	
+	img {
+        width: 200px;
+		height: 150px;
+		border-radius: 5px;
+	}
+
+	p, h1, h3{
+        text-align: center;
+	}
+	#logo{
+		width: 200px;
+		height: 89px;
+	}
+	article{
+        background-color: rgba(240, 240, 240, 0.199);
+        margin: 15px;
+        border-radius: 5px;
+        border: solid black;
+       
+	}
+	nav ul li.Home a {
+        background-color: rgba(0, 0, 0, 0.2);
+        color: #fff;
+	  }
+	  nav a:hover {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.2);;
+      }
+	  
 	
 }

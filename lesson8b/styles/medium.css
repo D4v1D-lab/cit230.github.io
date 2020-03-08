@@ -21,6 +21,10 @@
 	.navigation li:first-child {
 		display: none;
 	}
+	nav ul li.Storm a {
+        background-color: rgba(0, 0, 0, 0.2);
+        color: #fff;
+      }
 
 	#five_day_forcast{
 		display: block;
