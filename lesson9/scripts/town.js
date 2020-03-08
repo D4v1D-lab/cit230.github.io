@@ -33,8 +33,8 @@ fetch('https://byui-cit230.github.io/weather/data/towndata.json')
                     document.querySelector("#sodaSpringsYearFounded").textContent = `Year Founded: ${town.yearFounded}`;
                     document.querySelector("#sodaSpringsPopulation").textContent = `Population: ${town.currentPopulation}`;
                     document.querySelector("#sodaSpringsAnnualRainfall").textContent = `Annual Rainfall: ${town.averageRainfall}`;
-                    document.querySelector("#sodaSpringsImage").setAttribute('src', `images/${town.photo}`);
-                    document.querySelector("#sodaSpringsImage").setAttribute('alt', `images/${town.name}`);
+                    document.querySelector("#sodaspringsImage").setAttribute('src', `images/${town.photo}`);
+                    document.querySelector("#sodaspringsImage").setAttribute('alt', `images/${town.name}`);
             }
         }
 
