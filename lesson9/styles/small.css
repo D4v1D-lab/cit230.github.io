@@ -109,12 +109,7 @@ footer {
     background-color:rgba(0,0,0,0.2); 
 }
 
-#cities{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-}
-/*-----------------------------------------*/
+/*---------------------------------------*/
 #cities {
     display: grid;
     grid-template-columns: 1fr;
