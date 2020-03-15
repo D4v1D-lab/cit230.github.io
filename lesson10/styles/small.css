@@ -1,0 +1,183 @@
+/* HTML selectors */
+@import url('https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro&display=swap');
+
+body {
+  margin: 0;
+  background: #3EB489;
+
+
+}
+
+h1, h2, h3, p
+ {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #000; 
+}
+
+table,tr,th,td{
+border: 2px solid black;
+padding: 8px;
+color: #000;
+margin: auto;
+border-collapse: collapse;
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 100%;
+  text-align: center;
+
+  text-align: center;
+  padding: 2em;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+header {
+
+  border-radius: 2x 2px 2px 2px;
+
+  max-width: 100%;
+
+  padding: 1em;
+  background-color:rgba(0,0,0,0.2);
+}
+
+#logo {
+
+  display: flex;
+  margin: auto;
+
+
+}
+nav {
+  margin: 0 auto;
+  max-width: 760px;
+
+  max-width: 100%;
+  color: black;
+}
+
+.navigation {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+
+  padding: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  font-weight: 300;
+  background:rgba(0,0,0,0.2);
+  color: white;
+}
+
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.responsive li {
+  display: block;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #3EB489;
+}
+
+section {
+  align-items: center;
+
+  display: block;
+  margin: 2px;
+
+  padding: 2px;
+  border-radius: 10px 10px 10px 10px;
+  color: white;
+  border-style: solid black;
+
+}
+
+
+.site {
+  text-align: center;
+}
+
+#hero-image {
+
+  border-radius: 5px 5px 5px 5px;
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+
+#article-image {
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: auto;
+  float: right;
+  padding: .5em;
+}
+
+#weather-summary {
+  background-color: rgba(240, 240, 240, 0.8);
+  margin: 1em 1em;
+  text-align: center;
+  border-radius: 5px 5px 5px 5px;
+  bottom: .5px;
+  opacity: 1;
+  color: gray !important;
+  width: 15em;
+  margin: auto;
+  position: relative;
+}
+#herocontainer {
+  overflow: hidden;
+  height: 300px;
+  /* display: none; */
+}
+
+footer{
+  background-color:rgba(0,0,0,0.2);
+  color:            #efe5d0;
+  text-align:       center;
+  padding:          10px;
+  margin:           auto;
+  font-size:        80%;
+  float: both;
+}
+
+  #map {
+    display: block;
+    margin: auto;
+  }
+
+  #table-cont{
+    background-color: rgba(0,0,0,0.2);
+    padding-bottom: 2em;
+  }
+
+  #paragraph-a{
+    background-color: rgba(0,0,0,0.2);
+    padding: 2em;
+  }
+ 

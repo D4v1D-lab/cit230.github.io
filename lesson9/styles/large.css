@@ -4,23 +4,33 @@
         display: flex;
         border: 3px solid rgba(0, 0, 0, 0.2);
     }
+
     .navigation li:first-child {
         display: none;
     }
+
     .navigation li {
         display: block;
         flex: 1 1 100%;
     }
+
     .navigation li a {
         color: black;
     }
+
     ul.navigation {
         margin: 0em;
     }
+    nav ul li.Storm a {
+        background-color: rgba(0, 0, 0, 0.2);
+        color: #fff;
+      }
+
     #logo {
         display: flex;
         margin: auto;
     }
+
     #article-image {
         border-radius: 10px 10px 10px 10px;
         display: block;
@@ -31,42 +41,27 @@
         padding-bottom: 5em;
     }
 
-   #cities {
-       display: grid;
-       grid-template-columns: 1fr 1fr 1fr;
-       padding: 10px;
-   }
-   
-
-     img{
-        width: 250px;
-        height: 200px;
-        border-radius: 5px;
-    }
-    p, h1, h3{
-        text-align: center;
-    }
-
-    #logo{
-    width: 200px;
-    height: 89px;
-}
-    article{
-        background-color: rgba(240, 240, 240, 0.199);
-        margin: 15px;
-        border-radius: 5px;
-        border: solid black;
-       
-    }
-    nav ul li.Home a {
-        background-color: rgba(0, 0, 0, 0.2);
-        color: #fff;
-      }
-      nav a:hover {
+    form {
+        margin-left: 30em;
         color: white;
-        background-color: rgba(0, 0, 0, 0.2);;
-      }
-      
-    
+    }
+
+
+    #paragraph-a {
+        margin: auto;
+        padding: 5em;
+        text-align: left;
+    }
+
+    table {
+        margin: auto;
+        border-collapse: collapse;
+    }
+
+    thead {
+        border-bottom: solid 5px rgba(0, 0, 0, 0.2);
+    }
+  
+   
 
 }

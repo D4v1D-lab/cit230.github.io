@@ -1,0 +1,88 @@
+@media only screen and (min-width: 65.1em) {
+
+    .navigation {
+        display: flex;
+        border: 3px solid rgba(0, 0, 0, 0.2);
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li a {
+        color: black;
+    }
+
+    ul.navigation {
+        margin: 0em;
+    }
+    nav ul li.Storm a {
+        background-color: rgba(0, 0, 0, 0.2);
+        color: #fff;
+      }
+    #logo {
+        display: flex;
+        margin: auto;
+    }
+
+    #article-image {
+        border-radius: 10px 10px 10px 10px;
+        display: block;
+        margin: auto;
+        width: 50%;
+        height: auto;
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+
+    #weather-summary {
+            background-color: rgba(240, 240, 240, 0.8);
+            margin: 1em 1em;
+            padding: .5em;
+            text-align: center;
+            color: white;
+            border-radius: 5px 5px 5px 5px;
+            position: relative;
+            bottom: 25em;
+            width: 30em;
+            margin: auto;
+    }
+    #hero-image {
+        border-radius: 10px 10px 10px 10px;
+        display: block;
+        margin: auto;
+        width: 90%;
+        height: auto;
+        padding-top: 1em;
+        padding-bottom: 5em;
+      }
+
+    #paragraph-a {
+        margin: auto;
+        padding: 5em;
+        text-align: left;
+    }
+
+    table {
+        margin: auto;
+        border-collapse: collapse;
+    }
+
+    thead {
+        border-bottom: solid 5px rgba(0, 0, 0, 0.2);
+    }
+    #contact-info{
+        width: 80%;
+        margin: auto;
+    }
+    .pancakes p {
+        text-align: center;
+    }
+ 
+
+}
