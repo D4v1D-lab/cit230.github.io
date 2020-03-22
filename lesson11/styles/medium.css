@@ -1,0 +1,53 @@
+@media only screen and (min-width: 32.5em){
+    .navigation{
+        flex-direction: row;
+    }
+
+    .ham{
+        display: none;
+    }
+
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* needed because of state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		text-align: center;
+	}
+	
+	.navigation li:first-child {
+		display: none;
+	}
+	nav ul li.Storm a {
+        background-color: rgba(0, 0, 0, 0.2);
+        color: #fff;
+      }
+
+	#five_day_forcast{
+		display: block;
+		align-items: center;
+	}
+	
+    #weather_summary{
+        background-color: rgba(240, 240, 240, 0.8);
+        margin: 1em 1em;
+        padding: .0em;
+        text-align: center;
+        color: white;
+        border-radius: 5px 5px 5px 5px;
+        position: absolute;
+        bottom: 1em;
+        width: 30em;
+        margin: auto;
+	}
+
+	.grid{
+		grid-template-columns: 1fr 1fr;
+	}
+
+	
+	
+}
