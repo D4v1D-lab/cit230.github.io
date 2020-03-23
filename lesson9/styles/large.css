@@ -31,6 +31,10 @@
         margin: auto;
     }
 
+    #cities{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
     #article-image {
         border-radius: 10px 10px 10px 10px;
         display: block;
@@ -61,7 +65,7 @@
     thead {
         border-bottom: solid 5px rgba(0, 0, 0, 0.2);
     }
-  
    
+
 
 }

@@ -24,7 +24,11 @@
 	nav ul li.Storm a {
         background-color: rgba(0, 0, 0, 0.2);
         color: #fff;
-      }
+	  }
+	  
+	  #cities{
+		grid-template-columns: 1fr 1fr;
+	}
 
 	#five_day_forcast{
 		display: block;
@@ -34,11 +38,6 @@
     #weather_summary{
 		bottom: 30em;
 	}
-
-	.grid{
-		grid-template-columns: 1fr 1fr;
-	}
-
 	
 	
 }
