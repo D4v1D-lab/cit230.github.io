@@ -26,6 +26,11 @@
         color: #fff;
       }
 
+      nav ul li.Storm a {
+        background-color: rgba(0, 0, 0, 0.2);
+        color: #fff;
+      }
+
     #logo {
         display: flex;
         margin: auto;
