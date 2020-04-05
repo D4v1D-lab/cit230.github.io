@@ -110,7 +110,14 @@ header a {
 	color: white;
 }
 .one{
-    background-color: #fff;
+    background-color: rgba(240, 240, 240, 0.8);
+    margin: 0em ;
+   padding: 1em;
+   border-radius: 1em;
+   text-align: justify;
+   color: #022030;
+   font-weight: bold;
+   grid-column: 2/4;
     grid-column: 1/2;
     grid-row: 1/5;
 }
