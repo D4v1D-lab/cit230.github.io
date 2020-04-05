@@ -305,6 +305,20 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
   .btn:hover {
     background-color: #D3A839;
   }
+  /* Contact*/
+  #contact .header-img{
+    background-image: url('../images/david-alpert-hotel-panounsplash.jpg');
+    background-position: center;
+
+}
+
+#contact .map{
+    margin: 0 30px;
+}
+
+#contact .map h2{
+    margin-top: 0;
+}
 
 @media screen and (max-width: 640px) {
 	.item {
