@@ -10,7 +10,9 @@ body {
 
 nav {
 	background-color: #A38A41;
-	height: 80px;
+    height: 80px;
+    overflow: hidden;
+   
 }
 
 nav .logo {
@@ -129,11 +131,67 @@ header a {
     grid-column: 2/4;
     grid-row: 1/4;
 }
-.three{
-    background-color: blue;
+
+
+
+#container {
+  color:#022030;
+  text-transform: uppercase;
+  font-size:36px;
+  font-weight:bold;
+  padding-top:2em;  
+  background-color: rgba(240, 240, 240, 0.8);
+  width:100%;
+  bottom:45%;
+  display:block;
+  text-align: center;
+  border-radius: 1em;
+  border: #022030 solid;
     grid-column: 4/5;
     grid-row: 1/4;
 }
+#flip {
+    height:50px;
+    overflow:hidden;
+  }
+  
+  #flip > div > div {
+    color:white;
+    padding:4px 12px;
+    height:45px;
+    margin-bottom:45px;
+    display:inline-block;
+  }
+  
+  #flip div:first-child {
+    animation: show 3s linear infinite;
+    animation-delay: 1s;
+    
+  }
+  
+  #flip div div {
+    background:#022030;
+    
+  }
+  #flip div:first-child div {
+    background:#A38A41;
+  }
+  #flip div:last-child div {
+    background:#444439;
+  }
+  
+   @keyframes show {
+    0% {margin-top:-270px;}
+    8% {margin-top:-180px;}
+  
+    38% {margin-top:-90px;}
+    66% {margin-top:-45px;}
+   
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+  }
+  
+  
 .four{
 	grid-column: 2 / 3;
     grid-row: 2 / 3;
