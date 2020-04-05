@@ -3,7 +3,7 @@
 	<meta charset="utf-8">
 	<meta name="author" content="codify academy">
 	<meta name="description" content="an intermediate simple site replication made by codify academy">
-	<title>Reservations</title>
+	<title>Contacts</title>
 	<link rel="shortcut icon" href="img/favicon.io">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -20,23 +20,152 @@
     <nav>
 		<div class="logo">The Temple Inn & Suites </div>
 		<ul class="navigation"> 
-			<li class="active">
-				<a href="#">TEMPLE</a>
-			</li>
 			<li>
+				<a href="https://d4v1d-lab.github.io/temple/temple.html">TEMPLE</a>
+			</li>
+			<li class="active">
 				<a href="#">RESERVATIONS</a>
 			</li>
 			<li>
 				<a href="#">SERVICES</a>
             </li>
-            <li>
+            <li >
 				<a href="#">CONTACTS</a>
 			</li>
 		</ul>
-	</nav>
-	<section class="features">
-			
-	</section>
+    </nav>
+    <main class="mainreservation">
+        <br>
+        <section class ="header-img">
+                <div class ="header-img-text-wrap">
+                   
+                <form action="thanks.html" method="GET">
+                    <p>* are required fields.</p>
+                    <h2>Make your reservation here</h2>
+                    <div>
+                        <label for="fullName">Full Name* </label>
+                        <input type="text" id="fullName" name="fullName" required pattern ="[A-Za-z ]{5,}">
+                    </div>
+                    <div>
+                        <label for="email">Email* </label>
+                        <input type="email" id="email" name="email" placeholder="user@email.com" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone </label>
+                        <input type="tel" id="phone" name="phone" >
+                    </div>
+                    <div>
+                        <label for="homeState">Home State </label>
+                        <input type="text" id="homeState" name="homeState">
+                    </div>
+                    <div>
+                        <label for="homeCountry">Home Country* </label>
+                        <input type="text" id="homeCountry" name="homeCountry" required>
+                    </div>
+
+                    <h2>Reservation</h2>
+                    <div>
+                        <label for="dateFrom">Start Date* </label>
+                        <input type="date" id="dateFrom" name="dateFrom">
+                    </div>
+                    <div>
+                        <label for="dateTo">End Date* </label>
+                        <input type="date" id="dateTo" name="dateTo" required>
+                    </div> 
+                    <p>Your check-in time is at 12pm of the date chosen or later.</p>
+                    <p>Your check-out time is before 2pm of the date chosen or earlier.</p>
+
+                    <div>
+                        <label for="location">Location:* </label>
+                        <select name="location" id="location" required>
+                            <option selected disabled>Select Hotel Location ...</option>
+                            <option value="Barranquilla, Colombia">Barranquilla, Colombia</option>                            
+                            <option value="Laie, Hawaii">Laie, Hawaii, USA</option>
+                            <option value="Logan, Utah">Logan, Utah, USA</option>
+                            <option value="London, England">London, England</option>
+                            <option value="Manila,Philippines">Manila Philippines</option>
+                            <option value="Melbourne, Australia">Melbourne, Australia</option>
+                            <option value="Nauvoo, Illinois">Nauvoo, Illinois</option>
+                            <option value="Rome, Italy">Rome, Italy</option>
+                            <option value="Salt Lake City, Utah">Salt Lake City, Utah, USA</option>
+                            <option value="Seoul, Korea">Seoul, Korea</option>
+                            <option value="Tokyo, Japan">Tokyo, Japan</option>
+                        </select>                    
+                    </div>
+                    <h2>Add room</h2>
+                    <div id = "guest-room-form">
+                        <div class = "roomType-container">
+                            <label for="roomType">Room Type:* </label>
+                            <select required name="roomType" id="roomType">
+                                <option selected disabled>Select Room Type ...</option>
+                                <option value="Single">Single</option>
+                                <option value="Double">Double</option>
+                                <option value="Studio">Studio</option>
+                                <option value="Mini-Suite">Mini-Suite</option>
+                                <option value="Master Suite">Master Suite</option>
+                                <option value="Apostle Suite">Apostle Suite</option>
+                            </select>                    
+                        </div>
+                        <div>
+                            <label for="guestAdult">Adult Guests in Room:* </label>
+                            <select required name="guestAdult" id="guestAdult">
+                                <option value = "" disabled></option>
+                                <option value = "0">0</option>
+                                <option value = "1">1</option>
+                                <option value ="2">2</option>
+                                <option value ="3">3</option>
+                                <option value ="4">4</option>
+                                <option value ="5">5</option>
+                                <option value ="6">6</option>
+                                <option value ="7">7</option>
+                                <option value ="8">8</option>
+                                <option value ="9">9</option>
+                                <option value ="10">10</option>
+                            </select>
+                                           
+                        </div>
+                        <div>
+                            <label for="guestChildren">Chilren Guests in Room:* </label>
+                            <select required name="guestChildren" id="guestChildren">
+                                <option value = "" disabled></option>
+                                <option value = "0">0</option>
+                                <option value = "1">1</option>
+                                <option value ="2">2</option>
+                                <option value ="3">3</option>
+                                <option value ="4">4</option>
+                                <option value ="5">5</option>
+                                <option value ="6">6</option>
+                                <option value ="7">7</option>
+                                <option value ="8">8</option>
+                                <option value ="9">9</option>
+                                <option value ="10">10</option>
+                            </select>              
+                        </div>
+                        <div>
+                            <input class = "add_room" type="button" value="Add room">
+                        </div>
+                        
+                    </div>
+                    <div id = "room-selection">
+                        <!-- <div id="roomitem-%id%" class = "room-item">
+                            <p>1 x <span class ="room-type-display">Master Suite</span> with <span class = "people-display">1 adult & 3 children</span>.</p>
+                            <button class="btn"><i class="fa fa-close"></i></button>
+                        </div> -->
+                    
+                    </div>
+                    <div>
+                        <label for="comments">Comments/Special Accommodations:</label>
+                        <textarea rows="5"></textarea>                
+                    </div>
+                    <div>
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </section>
+        </div>
+        <br>
+    </main>
+    
 	<footer>
 		<h3>© 2020, The Temple Inn & Suites Company</h3>
 		<p>All rights reserved  <a href="https://d4v1d-lab.github.io" target="_blank">David Martinez</a> and submitting pull requests.</p>
@@ -45,6 +174,7 @@
 			<a href="https://twitter.com/login?lang=en" target="_blank"><i class="fa fa-twitter"></i></a>
 			<a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
 		</div>
-	</footer>
+    </footer>
+    <script src="scripts/form-room-selection.js"></script>
 </body>
 </html>
