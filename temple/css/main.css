@@ -149,10 +149,36 @@ header a {
 
 }
 .five{
-    background-color: aqua;
+    background-color: rgba(240, 240, 240, 0.8);
+    margin: 0em ;
+   padding: 1em;
+   border-radius: 1em;
+   text-align: center;
+   color: #022030;
+   font-weight: bold;
+   border: 5px dashed #A38A41;
     grid-column: 4/5;
     grid-row: 4/5;
+    
 }
+div li {
+    display: inline-block;
+    margin: auto 30px;
+    text-align:center;
+    margin-top: 15px;
+  }
+
+svg{
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s cubic-bezier(0,1,1,1.9);
+    
+  }
+  svg:hover{
+    transform: scale(1.8);
+  }
+
+
 footer {
 	color: #D8D8D8;
     text-align: center;
@@ -254,17 +280,15 @@ form textarea{
 }
 
 form input[type="submit"], form input[type="button"]{
-    font-family: 'Barlow', sans-serif;
+    background-color: #A38A41;
+    padding: 15px 20px;
     text-transform: uppercase;
-    font-weight: 800;
-    padding: 10px 20px;
-    color: #212121;
-    border: #212121 2px solid;
-    letter-spacing: 2pt;
-    transition: .2s ease-in-out;
-    background-color: rgba(0, 0, 0, 0);
-    cursor: pointer;
-    width: 10em;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0 75px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
 }
 
 form input[type="submit"]:hover, form input[type="submit"]:active, form input[type="button"]:hover, form input[type="button"]:active{
