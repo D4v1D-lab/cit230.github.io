@@ -404,11 +404,6 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
     background-color: #D3A839;
   }
   /* Contact*/
-  #contact .header-img{
-    background-image: url('../images/david-alpert-hotel-panounsplash.jpg');
-    background-position: center;
-
-}
 
 #contact .map{
     margin: 0 30px;
@@ -417,11 +412,44 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 #contact .map h2{
     margin-top: 0;
 }
-
-@media screen and (max-width: 640px) {
-	.item {
-		width: 50%;
-		margin: 0 auto;
-		display: block;
-	}
+/* services*/
+#prophets{
+    text-align: center;
+    color: #022030;
+    background-color: rgba(240, 240, 240, 0.8);
+  
+        border-radius: 10px 10px 10px 10px;
+        display: block;
+        margin: auto;
+        width: 50%;
+        height: auto;
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+.services{
+    background-color: #444439;
 }
+
+@media only screen and (min-width: 32.5em) {
+    section {
+        grid-template-columns: 1fr 1fr;
+    }
+    footer {
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+      
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    section {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        box-shadow: 0 0 20px #333;
+    }
+    footer {
+        margin: auto;
+        text-align: center;
+        padding-top: 10px;
+        
+    }
